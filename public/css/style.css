@@ -74,7 +74,8 @@ section hr {
   border-radius: 100%;
 }
 section p {
-  margin-top: 3%;
+  margin: 0 auto;
+  text-align: left;
 }
 section ul {
   width: 40%;
