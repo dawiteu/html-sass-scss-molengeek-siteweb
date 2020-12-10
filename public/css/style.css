@@ -61,8 +61,10 @@ header nav div.nav-item:nth-child(3) {
   align-self: center;
 }
 
-section h2 {
+section {
   text-align: center;
+}
+section h2 {
   font-size: 100px;
   color: grey;
 }
@@ -70,6 +72,27 @@ section hr {
   width: 20%;
   background: linear-gradient(90deg, white, purple, white);
   border-radius: 100%;
+}
+section p {
+  margin-top: 3%;
+}
+section ul {
+  width: 40%;
+  margin: 15px auto;
+  padding: 0;
+  text-align: left;
+}
+section ul li {
+  line-height: 1.8em;
+  color: grey;
+  margin-top: 15px;
+}
+section h3 {
+  font-size: 30px;
+}
+
+::marker {
+  color: purple;
 }
 
 /*# sourceMappingURL=style.css.map */
